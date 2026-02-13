@@ -1,0 +1,4 @@
+[submodule "Vitis_Libraries"]
+	path = Vitis_Libraries
+	url = https://github.com/Xilinx/Vitis_Libraries.git
+	branch = 2024.1
