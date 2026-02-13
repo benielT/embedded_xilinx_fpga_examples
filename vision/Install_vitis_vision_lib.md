@@ -6,7 +6,7 @@ Testing - OS: Windows 11, Tool VItis 2024.1
 
 ## Acknowledgement
 
-This guide is based on - [Xilinx/xup_high_level_synthesis_design_flow - vision library windows setup](github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_win.md)
+This guide is based on - [Xilinx/xup_high_level_synthesis_design_flow - vision library windows setup](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_win.md)
 
 For setup on linux system check - [Xilinx/xup_high_level_synthesis_design_flow - vision library linux setup](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_linux.md)
 
