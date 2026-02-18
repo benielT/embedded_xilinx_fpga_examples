@@ -1,4 +1,5 @@
 .wsdata
-vitis_ws
+cl_ws
 vivado_project
 NA
+.Xil

@@ -11,9 +11,14 @@ This app is based on sample [project by Digilent](https://digilent.com/reference
 
 ## 2 Generate Vitis Components
 
-After successfully hardware system built expored as XSA file, above. 
+After successfully hardware system built expored as XSA file, above. We are going to use vitis classic for this project.  
 
-* Open **Vitis Console 2024.1**
-* start new terminal by `Terminal -> New Terminal` in the top menu.
+* Open **Xilinx XSCT 2024.1** console.
 * Go to the **color_change_app** directory. 
-* run **`run vitis_script.py`** to generate both platform and application components.
+* run **`source vitis_classic.tcl`** to generate both platform and application components.
+* After the script run sucessfully, close the XSCT conlole. 
+* Open **Vitis Classic 2024.1** and locate the workspace inside **`color_change_app/cl_ws`** and build and run the application on hardßware. 
+
+### Known issues:
+
+If you're using Windows, the path can only have 260 charters as Vitis and Vivado tools uses full paths. Make sure the repository is in shallow path closer to `C:/`. Otherwise you'll encounter random errors. 
