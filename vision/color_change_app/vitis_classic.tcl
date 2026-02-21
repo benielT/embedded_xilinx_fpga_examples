@@ -32,10 +32,10 @@ platform write
 app create -name $app_name \
     -platform $platform_name \
     -domain "standalone_domain" \
-    -template "Empty Application"
+    -template "Empty Application."
 
 # 5. Import and Build
-importsources -name $app_name -path "$src_path/main.cc" -soft-link
+importsources -name $app_name -path "$src_path/main.cc"
 app build -name $app_name
 
 puts "Vitis Project Creation Complete!"
