@@ -47,11 +47,11 @@ platform generate
 app create -name $app_name \
     -platform $platform_name \
     -domain "standalone_domain" \
-    -template "Empty Application"
+    -template "Empty Application."
 
 # 4. Import External Sources
 # This links/copies your external .c and .h files into the project
-importsources -name $app_name -path $src_path
+importsources -name $app_name -path "$src_path/main.cc"
 
 # 5. Build the Application
 app build -name $app_name
